@@ -1,8 +1,8 @@
-# Y-Factor Measurments
+# Y-Factor Measurements
 
-This notebook provides some tools to preform a simplistic Y-factor measurments for some device under test (DUT). For more information regarding Y-factor measurments see ref.1
+This notebook provides some tools to preform a simplistic Y-factor measurements for some device under test (DUT). For more information regarding Y-factor measurments see ref.1
 
-The governing equations for the Y-factor measurment are as follows: 
+The governing equations for the Y-factor measurement are as follows: 
 
 <img src="https://render.githubusercontent.com/render/math?math=Y%20\equiv%20\frac{P_{hot}}{P_{cold}}%20\left[%20\frac{W}{W}%20\right]">
 
