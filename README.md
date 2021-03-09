@@ -13,7 +13,7 @@ where Y is a _linear_ unitless parameter from measuring the response of the syst
 
 <img  src="https://render.githubusercontent.com/render/math?math=T_{sys} =T_{dut} = T_{sys}-\frac{T_{recv}}{G_{dut}} [K]">
 
-Where the reciever is all componets following our DUT in the RF chain.
+Where the reciever is all componets following our DUT in the RF chain. Additional corrections to account for losses in the RF-chain and error calculations may be applied as well to further resolve the physical noise temperature for the device.  
 
 ## Refrences
 
