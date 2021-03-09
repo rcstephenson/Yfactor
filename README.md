@@ -11,7 +11,7 @@ The governing equations for the Y-factor measurment are as follows:
 
 where Y is a _linear_ unitless parameter from measuring the response of the system taken with a hot and cold input load temperature, and $T_{sys}$ is the _additive_ temperature of the over all system from some $T_{amb.}$ (= 290 K, in our case). To measure the temperature of our device under test more precisely we can take cascaded temperature of our overall system and subtract out the noise of our reciever  to isolate our devices temperature: 
 
-$$ T_{dut} = T_{sys}-\frac{T_{recv}}{G_{dut}} [K]$$
+<img  src="https://render.githubusercontent.com/render/math?math=T_{sys} =T_{dut} = T_{sys}-\frac{T_{recv}}{G_{dut}} [K]">
 
 Where the reciever is all componets following our DUT in the RF chain.
 
