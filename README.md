@@ -4,7 +4,12 @@ This notebook provides some tools to preform a simplistic Y-factor measurments f
 
 The governing equations for the Y-factor measurment are as follows: 
 
-<img src="https://render.githubusercontent.com/render/math?math=Y%20\equiv%20\frac{P_{hot}}{P_{cold}}%20\left[%20\frac{W}{W}%20\right]">
+
+
+<p class="aligncenter">
+    <img src="https://render.githubusercontent.com/render/math?math=Y%20\equiv%20\frac{P_{hot}}{P_{cold}}%20\left[%20\frac{W}{W}%20\right]"  alt="centered image" />
+</p>
+
 
 
 <img  src="https://render.githubusercontent.com/render/math?math=T_{sys} = \frac{T_{hot} - Y \cdot T_{cold}}{Y-1} [K]">
