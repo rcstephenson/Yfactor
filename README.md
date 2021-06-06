@@ -1,6 +1,6 @@
 # Y-Factor Measurements
 
-This notebook provides some tools to preform a simplistic Y-factor measurements for some device under test (DUT). For more information regarding Y-factor measurments see ref.1
+This notebook provides some tools to perform a simplistic Y-factor measurements for some device under test (DUT). For more information regarding Y-factor measurments see ref.1
 
 The governing equations for the Y-factor measurement are as follows: 
 
