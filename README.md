@@ -6,17 +6,17 @@ The governing equations for the Y-factor measurement are as follows:
 
 
 
-<p class="aligncenter">
+<center><p class="aligncenter">
     <img src="https://render.githubusercontent.com/render/math?math=Y%20\equiv%20\frac{P_{hot}}{P_{cold}}%20\left[%20\frac{W}{W}%20\right]"  alt="centered image" />
-</p>
+</p></center>
 
 
 
-<img  src="https://render.githubusercontent.com/render/math?math=T_{sys} = \frac{T_{hot} - Y \cdot T_{cold}}{Y-1} [K]">
+<center><img  src="https://render.githubusercontent.com/render/math?math=T_{sys} = \frac{T_{hot} - Y \cdot T_{cold}}{Y-1} [K]"></center>
 
 where Y is a _linear_ unitless parameter from measuring the response of the system taken with a hot and cold input load temperature, and <img  src="https://render.githubusercontent.com/render/math?math=T_{sys}"> is the _additive_ temperature of the over all system from some <img  src="https://render.githubusercontent.com/render/math?math=T_{amb.}"> (= 290 K, in our case). To measure the temperature of our device under test more precisely we can take cascaded temperature of our overall system and subtract out the noise of our reciever  to isolate our devices temperature: 
 
-<img  src="https://render.githubusercontent.com/render/math?math=T_{dut} = T_{sys}-\frac{T_{recv}}{G_{dut}} [K]">
+<center><img  src="https://render.githubusercontent.com/render/math?math=T_{dut} = T_{sys}-\frac{T_{recv}}{G_{dut}} [K]"></center>
 
 Where the reciever is all componets following our DUT in the RF chain. Additional corrections to account for losses in the RF-chain and error calculations may be applied as well to further resolve the physical noise temperature for the device.  
 
