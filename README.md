@@ -18,11 +18,11 @@ where Y is a _linear_ unitless parameter from measuring the response of the syst
 
 <center><img  src="https://render.githubusercontent.com/render/math?math=T_{dut} = T_{sys}-\frac{T_{recv}}{G_{dut}} [K]"></center>
 
-Where the reciever is all componets following our DUT in the RF chain. Additional corrections to account for losses in the RF-chain and error calculations may be applied as well to further resolve the physical noise temperature for the device.  
+Where the reciever is all componets following our DUT in the RF chain. Additional corrections to account for losses in the RF-chain and error calculations may be applied as well to further resolve the noise temperature for the device.  
 
 ## Refrences
 
-[1] Mike Leffel, Rick Daniel (2019). "The Y Factor Technique for Noise
-Figure Measurements." Rhode & Schwartz. Application Note 1MA178_4E. https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_application/application_notes/1ma178/1MA178_4e_NoiseFigure.pdf
+[1] Mike Leffel, Rick Daniel (2021). "The Y Factor Technique for Noise
+Figure Measurements." Rhode & Schwartz. Application Note 1MA178 Version 5e.
 
 [2] Pozar, D.M. (2010) Microwave Engineering. 3rd Edition, John Wiley, Hoboken, NJ. 
